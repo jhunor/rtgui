@@ -6,6 +6,7 @@ Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui,
  org.apache.felix.scr,
- org.eclipse.equinox.event
+ org.eclipse.equinox.event,
+ client.academy.application.model;bundle-version="1.0.0"
 Automatic-Module-Name: client.academy.application
 Bundle-RequiredExecutionEnvironment: JavaSE-17

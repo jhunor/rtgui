@@ -1,4 +1,4 @@
-package model;
+package client.academy.application.model;
 
 import java.util.ArrayList;
 import java.util.Arrays;

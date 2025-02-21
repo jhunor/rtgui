@@ -8,7 +8,7 @@ import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.ui.part.ViewPart;
 
-import model.BewegungsdatenModel;
+import client.academy.application.model.*;
 
 public class TrackListView extends ViewPart {
 	private TableViewer viewer;
