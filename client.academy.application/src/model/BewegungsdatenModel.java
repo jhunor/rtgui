@@ -8,6 +8,11 @@ public class BewegungsdatenModel {
 	
 	private List<String> operatingPoints;
 	private List<String> tracks;
+	
+	
+	public BewegungsdatenModel() {
+		this.generateDummyData();
+	}
 	/**
 	 * @return the operatingPoints
 	 */
