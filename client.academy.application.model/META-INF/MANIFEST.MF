@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: client.academy.application.model
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: client.academy.application.model
+Bundle-RequiredExecutionEnvironment: JavaSE-17
