@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="client.academy.application.bewegungsdatenprovider" name="Bewegungsdatenprovider" schema="schema/bewegungsdatenprovider.exsd"/>
+   <extension
+         id="bewegungs.daten.provider"
+         point="client.academy.application.bewegungsdatenprovider">
+      <dataprovider
+            dataprovider="client.academy.application.model.impl.BewegungsdatenModelImpl">
+      </dataprovider>
+   </extension>
+
+</plugin>

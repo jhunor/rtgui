@@ -5,7 +5,7 @@ Consequences:
 •	„consumer” can consolidate or filter data from all providers 
 
 
-1)	Start-Branch auschecken
+1)	Create a data model Interface in th e model plug-in, put it in a separate package, export only that package. 
 2)	Create an Extension-Point in the model Plugin-In einen .
 a.	The Extension-Point defines a  1-n Element with a provider  Attribut. The Attribute must define a class name which implements the BewegungsdatenModel interface. 
 3)	The model plugin offers the Implementation :BewegungsdatenModelImpl 
